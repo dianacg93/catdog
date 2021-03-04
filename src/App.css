@@ -1,3 +1,59 @@
 .App {
   text-align: center;
 }
+
+.cat-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cat-box {
+  padding: 10px;
+}
+
+.cat-name {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.cat-img {
+  max-width: 300px;
+}
+
+.dog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-button {
+  background-color: rgb(27, 40, 114);
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  text-decoration: none;
+  user-select: none;
+  letter-spacing: 1px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
+
+.dog-pic {
+  max-width: 500px;
+  padding: 10px;
+}
+
+.nav-box {
+  background-color: rgb(203, 205, 203);
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+  font-size: 1.25em;
+  font-weight: 600;
+}

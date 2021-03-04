@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <nav>
+        <nav className="nav-box">
           <NavLink to="/"> Home </NavLink>
           <NavLink to="/cats"> Cats </NavLink>
           <NavLink to="/dogs"> Dogs </NavLink>
